@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami - Kebab Cikalang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header id="arfyn_header">
+        <nav class="arfyn_navbar">
+
+            <!-- Tombol Hamburger (Mobile) -->
+            <button class="arfyn_hamburger" id="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false">
+                <span class="arfyn_bar"></span>
+                <span class="arfyn_bar"></span>
+                <span class="arfyn_bar"></span>
+            </button>
+
+            <!-- Daftar Menu Navigasi -->
+            <ul class="arfyn_nav_menu" id="nav-menu">
+                <li class="arfyn_nav_item"><a href="index.html" class="arfyn_nav_link">Home</a></li>
+                <li class="arfyn_nav_item"><a href="about.html" class="arfyn_nav_link active">About</a></li>
+                <li class="arfyn_nav_item"><a href="produk.html" class="arfyn_nav_link">Produk</a></li>
+                <li class="arfyn_nav_item"><a href="quality.html" class="arfyn_nav_link">Quality</a></li>
+                <li class="arfyn_nav_item"><a href="distribusi.html" class="arfyn_nav_link">Distribusi</a></li>
+                <li class="arfyn_nav_item"><a href="blog.html" class="arfyn_nav_link">Blog</a></li>
+                <li class="arfyn_nav_item"><a href="contact.html" class="arfyn_nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama (Halaman Tentang Kami) -->
+    <main id="arfyn_main">
+
+        <!-- 1. Header Banner Halaman (Warna Solid Merah & Teks Kontras) -->
+        <section class="arfyn_page_banner">
+            <div class="arfyn_container">
+                <h1 class="arfyn_page_banner_title">Tentang Kebab Cikalang</h1>
+                <p class="arfyn_page_banner_desc">Mengenal lebih dekat dedikasi dan perjalanan kami dalam menyajikan kelezatan kebab otentik</p>
+            </div>
+        </section>
+
+        <!-- 2. Sejarah Kami (2 Kolom Flexbox) -->
+        <section class="arfyn_history_section">
+            <div class="arfyn_container">
+                <div class="arfyn_history_flex">
+                    
+                    <!-- Kolom Kiri: Teks Sejarah -->
+                    <div class="arfyn_history_text">
+                        <span class="arfyn_badge">Perjalanan Kami</span>
+                        <h2 class="arfyn_section_title">Awal Mula Berdirinya Kebab Cikalang</h2>
+                        <p>
+                            Perjalanan <strong>Kebab Cikalang</strong> berawal dari sebuah kedai gerobak sederhana di sudut jalan Cikalang. Dilandasi oleh kecintaan mendalam terhadap kuliner Timur Tengah dan tekad untuk menghadirkan makanan lezat dengan harga yang terjangkau bagi semua kalangan, kami mulai meracik resep otentik kami sendiri.
+                        </p>
+                        <p>
+                            Melalui eksperimen tanpa henti dengan bumbu rempah pilihan, potongan daging sapi segar, serta saus racikan khas yang memiliki cita rasa gurih khas nusantara, Kebab Cikalang berhasil memikat lidah para pecinta kuliner. Antusiasme pelanggan yang terus bertambah dari hari ke hari menjadi motivasi besar bagi kami untuk menjaga konsistensi rasa dan terus berinovasi.
+                        </p>
+                        <p>
+                            Kini, Kebab Cikalang telah berkembang menjadi salah satu brand kuliner favorit keluarga, dengan komitmen teguh untuk tetap mempertahankan cita rasa asli dan pelayanan yang ramah dan higienis.
+                        </p>
+                    </div>
+
+                    <!-- Kolom Kanan: Foto Kedai/Gerobak -->
+                    <div class="arfyn_history_img">
+                        <div class="arfyn_about_img_wrapper">
+                            <img src="assets/kedai.png" alt="Kedai Kebab Cikalang" class="arfyn_about_img" onerror="this.classList.add('img-fallback')">
+                            <span class="arfyn_placeholder">assets/kedai.png</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Visi & Misi Perusahaan (Rata Tengah dengan Latar Abu-abu Terang & Border) -->
+        <section class="arfyn_vm_section">
+            <div class="arfyn_container">
+                <div class="arfyn_vm_box">
+                    <span class="arfyn_badge">Arah & Komitmen</span>
+                    <h2 class="arfyn_section_title">Visi & Misi Perusahaan</h2>
+                    
+                    <div class="arfyn_vision_block">
+                        <h3 class="arfyn_vm_subtitle">Visi</h3>
+                        <p class="arfyn_vm_text">
+                            Menjadi penyedia kuliner kebab terdepan dan terpercaya di Indonesia yang dikenal karena kelezatan otentik, kualitas bahan premium, dan standar higienis terbaik.
+                        </p>
+                    </div>
+
+                    <div class="arfyn_mission_block">
+                        <h3 class="arfyn_vm_subtitle">Misi</h3>
+                        <ul class="arfyn_mission_list">
+                            <li>Menyajikan hidangan kebab berkualitas tinggi dengan bahan baku segar, halal, dan higienis.</li>
+                            <li>Terus berinovasi mengembangkan varian rasa baru yang sesuai dengan selera masyarakat modern tanpa menghilangkan cita rasa otentik.</li>
+                            <li>Memberikan pelayanan terbaik, cepat, dan ramah demi terciptanya kepuasan pelanggan yang maksimal.</li>
+                            <li>Membangun ekosistem kemitraan yang saling menguntungkan dan berkontribusi positif bagi perekonomian lokal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="arfyn_footer">
+        <div class="arfyn_footer_container">
+            <p>&copy; 2026 Kebab Cikalang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

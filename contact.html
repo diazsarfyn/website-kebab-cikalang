@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami - Kebab Cikalang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header id="arfyn_header">
+        <nav class="arfyn_navbar">
+            
+            <!-- Tombol Hamburger (Mobile) -->
+            <button class="arfyn_hamburger" id="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false">
+                <span class="arfyn_bar"></span>
+                <span class="arfyn_bar"></span>
+                <span class="arfyn_bar"></span>
+            </button>
+
+            <!-- Daftar Menu Navigasi -->
+            <ul class="arfyn_nav_menu" id="nav-menu">
+                <li class="arfyn_nav_item"><a href="index.html" class="arfyn_nav_link">Home</a></li>
+                <li class="arfyn_nav_item"><a href="about.html" class="arfyn_nav_link">About</a></li>
+                <li class="arfyn_nav_item"><a href="produk.html" class="arfyn_nav_link">Produk</a></li>
+                <li class="arfyn_nav_item"><a href="quality.html" class="arfyn_nav_link">Quality</a></li>
+                <li class="arfyn_nav_item"><a href="distribusi.html" class="arfyn_nav_link">Distribusi</a></li>
+                <li class="arfyn_nav_item"><a href="blog.html" class="arfyn_nav_link">Blog</a></li>
+                <li class="arfyn_nav_item"><a href="contact.html" class="arfyn_nav_link active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama (Halaman Kontak) -->
+    <main id="arfyn_main">
+
+        <!-- 1. Header Halaman (Gaya desain yang sama dengan About) -->
+        <section class="arfyn_page_banner">
+            <div class="arfyn_container">
+                <h1 class="arfyn_page_banner_title">Hubungi Kami</h1>
+                <p class="arfyn_page_banner_desc">Punya pertanyaan seputar menu, pesanan acara, atau peluang kemitraan? Kami siap melayani Anda.</p>
+            </div>
+        </section>
+
+        <!-- 2. Section Kontak 2 Kolom -->
+        <section class="arfyn_contact_section">
+            <div class="arfyn_container">
+                <div class="arfyn_grid_2">
+                    
+                    <!-- Kolom Kiri: Informasi & Maps -->
+                    <div class="arfyn_contact_info_col">
+                        <div class="arfyn_info_card">
+                            <span class="arfyn_badge">Lokasi & Operasional</span>
+                            <h2 class="arfyn_section_title">Informasi Kedai</h2>
+
+                            <div class="arfyn_info_item">
+                                <h3 class="arfyn_info_label">Alamat Lengkap</h3>
+                                <p class="arfyn_info_text">
+                                    Jl. Raya Cikalang No. 128, RT 02 / RW 05, Tasikmalaya, Jawa Barat 46115
+                                </p>
+                            </div>
+
+                            <div class="arfyn_info_item">
+                                <h3 class="arfyn_info_label">Jam Operasional</h3>
+                                <p class="arfyn_info_text">
+                                    Senin - Sabtu: 10.00 - 22.00 WIB<br>
+                                    Minggu / Libur: 12.00 - 22.00 WIB
+                                </p>
+                            </div>
+
+                            <!-- Tombol Besar Chat via WhatsApp -->
+                            <a href="https://wa.me/628xxx" target="_blank" rel="noopener noreferrer" class="arfyn_btn_wa">
+                                <img src="assets/icon-wa.png" alt="" class="arfyn_wa_icon" onerror="this.style.display='none'"> Chat via WhatsApp
+                            </a>
+
+                            <!-- Tempat untuk Menempelkan Iframe Google Maps -->
+                            <div class="arfyn_map">
+                                <!-- Tempel kode <iframe src="..."></iframe> Google Maps di sini -->
+                                <div class="arfyn_map_placeholder">
+                                    <span>[ Area Google Maps - Tempelkan Iframe di Sini ]</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kolom Kanan: Form Pertanyaan (UI Saja) -->
+                    <div class="arfyn_contact_form_col">
+                        <div class="arfyn_form_card">
+                            <span class="arfyn_badge">Kirim Pesan</span>
+                            <h2 class="arfyn_section_title">Formulir Pertanyaan</h2>
+                            <p class="arfyn_form_desc">
+                                Silakan tinggalkan pesan melalui formulir di bawah ini. Tim kami akan segera merespons Anda.
+                            </p>
+
+                            <form class="arfyn_contact_form" action="#" method="POST" onsubmit="event.preventDefault();">
+                                <div class="arfyn_form_group">
+                                    <label for="name" class="arfyn_form_label">Nama Lengkap</label>
+                                    <input type="text" id="name" name="name" class="arfyn_form_input" placeholder="Masukkan nama Anda..." required>
+                                </div>
+
+                                <div class="arfyn_form_group">
+                                    <label for="email" class="arfyn_form_label">Alamat Email</label>
+                                    <input type="email" id="email" name="email" class="arfyn_form_input" placeholder="nama@email.com" required>
+                                </div>
+
+                                <div class="arfyn_form_group">
+                                    <label for="message" class="arfyn_form_label">Pesan / Pertanyaan</label>
+                                    <textarea id="message" name="message" rows="5" class="arfyn_form_textarea" placeholder="Tuliskan pertanyaan atau kebutuhan pesanan Anda..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="arfyn_btn arfyn_btn_submit">Kirim Pesan</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="arfyn_footer">
+        <div class="arfyn_footer_container">
+            <p>&copy; 2026 Kebab Cikalang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

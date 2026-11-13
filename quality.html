@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standar Kualitas - Kebab Cikalang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigasi -->
+    <header id="arfyn_header">
+        <nav class="arfyn_navbar">
+            
+            <!-- Tombol Hamburger (Mobile) -->
+            <button class="arfyn_hamburger" id="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false">
+                <span class="arfyn_bar"></span>
+                <span class="arfyn_bar"></span>
+                <span class="arfyn_bar"></span>
+            </button>
+
+            <!-- Daftar Menu Navigasi -->
+            <ul class="arfyn_nav_menu" id="nav-menu">
+                <li class="arfyn_nav_item"><a href="index.html" class="arfyn_nav_link">Home</a></li>
+                <li class="arfyn_nav_item"><a href="about.html" class="arfyn_nav_link">About</a></li>
+                <li class="arfyn_nav_item"><a href="produk.html" class="arfyn_nav_link">Produk</a></li>
+                <li class="arfyn_nav_item"><a href="quality.html" class="arfyn_nav_link active">Quality</a></li>
+                <li class="arfyn_nav_item"><a href="distribusi.html" class="arfyn_nav_link">Distribusi</a></li>
+                <li class="arfyn_nav_item"><a href="blog.html" class="arfyn_nav_link">Blog</a></li>
+                <li class="arfyn_nav_item"><a href="contact.html" class="arfyn_nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Konten Utama (Halaman Kualitas & Keamanan) -->
+    <main id="arfyn_main">
+        <section class="arfyn_quality_section">
+            <div class="arfyn_container">
+
+                <!-- Header Halaman (Rata Tengah) -->
+                <header class="arfyn_page_header">
+                    <span class="arfyn_badge">Keamanan & Mutu Pangan</span>
+                    <h1 class="arfyn_section_title">Standar Kualitas Kami</h1>
+                    <p class="arfyn_section_subtitle">
+                        Kepuasan dan kesehatan Anda adalah prioritas utama kami. Kami menerapkan standar ketat dalam setiap proses penyajian untuk memastikan setiap gigitan aman, bergizi, dan lezat.
+                    </p>
+                </header>
+
+                <!-- Grid Komitmen Kualitas (3 Kolom) -->
+                <div class="arfyn_grid_3 arfyn_quality_grid">
+
+                    <!-- Card 1: 100% Halal -->
+                    <article class="arfyn_quality_card">
+                        <div class="arfyn_icon_wrapper arfyn_icon_wrapper_lg">
+                            <img src="assets/icon-halal.png" alt="Ikon 100% Halal" class="arfyn_quality_icon" onerror="this.classList.add('img-fallback')">
+                            <span class="arfyn_placeholder">Halal</span>
+                        </div>
+                        <h3 class="arfyn_card_title">100% Halal</h3>
+                        <p class="arfyn_card_desc">
+                            Seluruh bahan baku mulai dari daging sapi, daging ayam, bumbu rempah, hingga aneka saus telah tersertifikasi halal dan diproses sesuai syariat pangan yang aman serta terpercaya.
+                        </p>
+                    </article>
+
+                    <!-- Card 2: Bahan Segar Setiap Hari -->
+                    <article class="arfyn_quality_card">
+                        <div class="arfyn_icon_wrapper arfyn_icon_wrapper_lg">
+                            <img src="assets/icon-fresh.png" alt="Ikon Bahan Segar" class="arfyn_quality_icon" onerror="this.classList.add('img-fallback')">
+                            <span class="arfyn_placeholder">Segar</span>
+                        </div>
+                        <h3 class="arfyn_card_title">Bahan Segar Setiap Hari</h3>
+                        <p class="arfyn_card_desc">
+                            Kami selalu memasok sayuran segar dan memanggang daging pilihan setiap hari tanpa bahan pengawet berbahaya, menjaga cita rasa alami dan kesegaran terbaik di setiap porsi.
+                        </p>
+                    </article>
+
+                    <!-- Card 3: Dapur Higienis -->
+                    <article class="arfyn_quality_card">
+                        <div class="arfyn_icon_wrapper arfyn_icon_wrapper_lg">
+                            <img src="assets/icon-hygiene.png" alt="Ikon Dapur Higienis" class="arfyn_quality_icon" onerror="this.classList.add('img-fallback')">
+                            <span class="arfyn_placeholder">Higienis</span>
+                        </div>
+                        <h3 class="arfyn_card_title">Dapur Higienis</h3>
+                        <p class="arfyn_card_desc">
+                            Proses pengolahan makanan dilakukan dengan protokol kebersihan tinggi. Peralatan masak disterilisasi rutin dan tim kami selalu menggunakan perlengkapan standar sanitasi pangan.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="arfyn_footer">
+        <div class="arfyn_footer_container">
+            <p>&copy; 2026 Kebab Cikalang. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
