@@ -616,7 +616,10 @@ body {
 .arfyn_benefit_title { font-size: 1.25rem; font-weight: 700; color: var(--dark-red); margin-bottom: 0.6rem; }
 
 /* Kontak: Kartu, WhatsApp, Map & Form */
-.arfyn_info_card, .arfyn_form_card { padding: 3rem 2.5rem; }
+.arfyn_info_card, .arfyn_form_card {
+    padding: 3rem 2.5rem;
+    height: 100%;
+}
 .arfyn_info_item { margin-bottom: 1.5rem; }
 .arfyn_info_label { font-size: 1.1rem; font-weight: 700; color: var(--dark-red); margin-bottom: 0.35rem; }
 .arfyn_btn_wa {
